@@ -36,7 +36,7 @@ export default function RecordIcon({isPlaying=true, recordSpeed=1.8181}, isActiv
                         className={styles.pivot}
                         initial={{rotate: 0}}
                         animate={{rotate: playing ? armAngle : 0}}
-                        transition={{delay: playing ? 1 : 0}}
+                        transition={{delay: playing ? 1.2 : 0, velocity: 1}}
                     >
                         <motion.div 
                             className={styles.recordArm}
