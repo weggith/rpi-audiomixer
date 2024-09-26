@@ -1,4 +1,4 @@
-# rpi-audiomixer-webui
+# rpi-audiomixer
 A fun little project to make my room audio setup unique and fit for purpose: switching between a few RCA inputs, Bluetooth, etc, with a hot screen and frontend interface that makes me happy.
 
 The plan for this project is to use a Rock64 SBC with USB-C power, 3 RCA inputs and 1 RCA output, rotary encoder that will be used to navigate all options/menus, 8x8 LED matrix (maybe multiple) serving as the display. Can display double digit numbers for volume, maybe another 1x8 matrix to depict the mode we’re in, I can make a bunch of 8x8 icons to depict other options. Then obviously this is signalling a 6 input relay board. This will be all running through a flask app, which can handle all GPIO and the LED matrix, and also expose APIs to potentially run automations for switching inputs, and also just because I can. Hopefully I can also incorporate other lights and cool physical interfaces to make it unique and cooool.
